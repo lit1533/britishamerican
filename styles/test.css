@@ -1,0 +1,71 @@
+.questionContainer{
+    display:none;
+    font-size: 20pt;
+}
+body{
+    text-align: center;
+    background-image: url(../images/3.png);
+}
+h1{
+    font-size: 30pt;
+}
+h2{
+    font-size: 23pt;
+}
+.red-line{
+    background-color: red;
+    margin-bottom: 0;
+}
+.blue-line{
+    background-color: blue;
+    margin-top: 0;
+}
+hr{
+    height: 5px;
+    border: none;
+    padding: 0;
+}
+#results{
+    font-size: 20pt;
+}
+#submit{
+    font-size: 14pt;
+    display: block;
+    text-decoration: none;
+    color: DarkBlue;
+    background-color: white;
+    border: 5px solid blue;
+    border-radius: 30px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+#submit:hover{
+    background-color: red;
+}
+#quiz{
+    margin-top: 20px;
+}
+.home{
+    font-size: 14pt;
+    display: block;
+    text-decoration: none;
+    color: DarkBlue;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 30px;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.5s;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+.home:hover{
+    background-color: red;
+}
+

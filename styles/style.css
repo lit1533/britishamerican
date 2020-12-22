@@ -1,0 +1,99 @@
+body{
+    font-family: Arial;
+    background-image:url(../images/3.png) ;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+.img1{
+    width: 250px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 5px;
+    
+}
+.img2{
+    width: 220px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+.img3{
+    width: 300px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+.img4{
+    width: 300px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+.img5{
+    width: 300px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+.img6{
+    width: 300px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+h2{
+    text-align: center;
+    cursor: pointer;
+}
+.date{
+    font-weight: bold;
+}
+p{
+    font-size: 14pt;
+    text-align: justify;
+    margin: 5px 10px;
+    
+}
+hr{
+    height: 5px;
+    border: none;
+    padding: 0
+}
+h3{
+    text-align: center;
+}
+.red-line{
+    background-color: red;
+    margin-bottom: 0;
+}
+.blue-line{
+    background-color: blue;
+    margin-top: 0;
+}
+.home{
+    font-size: 14pt;
+    display: block;
+    text-decoration: none;
+    color: DarkBlue;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 30px;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.5s;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+.home:hover{
+    background-color: red;
+}
+
+
+
