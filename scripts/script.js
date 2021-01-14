@@ -28,13 +28,13 @@ function buildQuiz(){
             }
             if (questionNumber == NowQuestion){
                 output.push(
-                    `<div class='questionContainer'style='display:block;'><div class="question"><b>Вопрос №${questionNumber + 1}.</b> К какому варианту английского языка относится это слово?<br> <b>${currentQuestion.question} </b></div>
+                    `<div class='questionContainer'style='display:block;'><div class="question"><b>Вопрос №${questionNumber + 1}.</b> В каком варианте английского языка чаще всего используется это слово?<br> <b>${currentQuestion.question} </b></div>
                     <div class="answers"> ${answers.join('')} </div></div>`
                 );
             }
            else{
             output.push(
-                `<div class='questionContainer'><div class="question"> <b> Вопрос №${questionNumber + 1}.</b> К какому варианту английского языка относится это слово?<br><b>${currentQuestion.question}</b> </div>
+                `<div class='questionContainer'><div class="question"> <b> Вопрос №${questionNumber + 1}.</b> В каком варианте английского языка чаще всего используется это слово?<br><b>${currentQuestion.question}</b> </div>
                 <div class="answers"> ${answers.join('')} </div></div>`
             );
            }
@@ -77,7 +77,7 @@ else{
 }
 const myQuestions1 = [
     {
-        question: "autumn",
+        question: "autumn (осень)",
         answers: {
             a: "British",
             b: "American"
@@ -85,7 +85,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "lawyer",
+        question: "lawyer (адвокат)",
         answers: {
             a: "British",
             b: "American"
@@ -93,7 +93,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "bill",
+        question: "bill (чек)",
         answers: {
             a: "British",
             b: "American"
@@ -101,7 +101,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "busy",
+        question: "busy (занято(о телефонной линии))",
         answers: {
             a: "British",
             b: "American"
@@ -109,7 +109,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "engine",
+        question: "engine (мотор)",
         answers: {
             a: "British",
             b: "American"
@@ -117,7 +117,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "movie",
+        question: "movie (фильм)",
         answers: {
             a: "British",
             b: "American"
@@ -125,7 +125,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "fortnight",
+        question: "fortnight (две недели)",
         answers: {
             a: "British",
             b: "American"
@@ -133,7 +133,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "yard",
+        question: "yard (двор)",
         answers: {
             a: "British",
             b: "American"
@@ -141,7 +141,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "high street",
+        question: "high street (главная улица)",
         answers: {
             a: "British",
             b: "American"
@@ -149,7 +149,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "vacation",
+        question: "vacation (отпуск)",
         answers: {
             a: "British",
             b: "American"
@@ -157,7 +157,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "lift",
+        question: "lift (лифт)",
         answers: {
             a: "British",
             b: "American"
@@ -165,7 +165,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "truck",
+        question: "truck (грузовик)",
         answers: {
             a: "British",
             b: "American"
@@ -173,7 +173,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "mad",
+        question: "mad (сумасшедший)",
         answers: {
             a: "British",
             b: "American"
@@ -181,7 +181,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "highway",
+        question: "highway (шоссе)",
         answers: {
             a: "British",
             b: "American"
@@ -189,7 +189,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "nasty",
+        question: "nasty (гадкий)",
         answers: {
             a: "British",
             b: "American"
@@ -197,7 +197,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "sidewalk",
+        question: "sidewalk (тротуар)",
         answers: {
             a: "British",
             b: "American"
@@ -205,7 +205,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "pocket money",
+        question: "pocket money (карманные деньги)",
         answers: {
             a: "British",
             b: "American"
@@ -213,7 +213,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "mail",
+        question: "mail (почта)",
         answers: {
             a: "British",
             b: "American"
@@ -221,7 +221,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "postman",
+        question: "postman (почтальон)",
         answers: {
             a: "British",
             b: "American"
@@ -229,7 +229,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "bar",
+        question: "bar (бар)",
         answers: {
             a: "British",
             b: "American"
@@ -237,7 +237,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "public toilet",
+        question: "public toilet (общественный туалет)",
         answers: {
             a: "British",
             b: "American"
@@ -245,7 +245,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "line",
+        question: "line (очередь)",
         answers: {
             a: "British",
             b: "American"
@@ -253,7 +253,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "railway",
+        question: "railway (железная дорога)",
         answers: {
             a: "British",
             b: "American"
@@ -261,7 +261,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "eraser",
+        question: "eraser (ластик)",
         answers: {
             a: "British",
             b: "American"
@@ -269,15 +269,15 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "rubbish",
+        question: "rubbish (мусор)",
         answers: {
             a: "British",
             b: "American"
         },
         correctAnswer: "a"
     },
-    {
-        question: "store",
+    { 
+        question: "store (магазин)",
         answers: {
             a: "British",
             b: "American"
@@ -285,7 +285,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "shop assistant",
+        question: "shop assistant (консультант)",
         answers: {
             a: "British",
             b: "American"
@@ -293,7 +293,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "schedule",
+        question: "schedule (расписание)",
         answers: {
             a: "British",
             b: "American"
@@ -301,7 +301,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "trainers",
+        question: "trainers (кроссовки)",
         answers: {
             a: "British",
             b: "American"
@@ -309,7 +309,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "flashlight",
+        question: "flashlight (фонарик)",
         answers: {
             a: "British",
             b: "American"
@@ -317,7 +317,7 @@ const myQuestions1 = [
         correctAnswer: "b"
     },
     {
-        question: "wardrobe",
+        question: "wardrobe (гардероб)",
         answers: {
             a: "British",
             b: "American"
@@ -325,7 +325,7 @@ const myQuestions1 = [
         correctAnswer: "a"
     },
     {
-        question: "zipper",
+        question: "zipper (молния)",
         answers: {
             a: "British",
             b: "American"
@@ -335,7 +335,7 @@ const myQuestions1 = [
 ]
 const myQuestions2 = [
     {
-        question: "fall",
+        question: "fall (осень)",
         answers: {
             a: "British",
             b: "American"
@@ -343,7 +343,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "barrister",
+        question: "barrister (адвокат)",
         answers: {
             a: "British",
             b: "American"
@@ -351,7 +351,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "check",
+        question: "check (чек)",
         answers: {
             a: "British",
             b: "American"
@@ -359,7 +359,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "engaged",
+        question: "engaged (занято(о телефонной линии))",
         answers: {
             a: "British",
             b: "American"
@@ -367,7 +367,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "motor",
+        question: "motor (мотор)",
         answers: {
             a: "British",
             b: "American"
@@ -375,7 +375,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "film",
+        question: "film (фильм)",
         answers: {
             a: "British",
             b: "American"
@@ -383,7 +383,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "two weeks",
+        question: "two weeks (две недели)",
         answers: {
             a: "British",
             b: "American"
@@ -391,7 +391,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "garden",
+        question: "garden (двор)",
         answers: {
             a: "British",
             b: "American"
@@ -399,7 +399,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "main street",
+        question: "main street (главная улица)",
         answers: {
             a: "British",
             b: "American"
@@ -407,7 +407,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "holiday",
+        question: "holiday (отпуск)",
         answers: {
             a: "British",
             b: "American"
@@ -415,7 +415,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "elevator",
+        question: "elevator (лифт)",
         answers: {
             a: "British",
             b: "American"
@@ -423,7 +423,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "lorry",
+        question: "lorry (грузовик)",
         answers: {
             a: "British",
             b: "American"
@@ -431,7 +431,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "crazy",
+        question: "crazy (сумасшедший)",
         answers: {
             a: "British",
             b: "American"
@@ -439,7 +439,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "motorway",
+        question: "motorway (шоссе)",
         answers: {
             a: "British",
             b: "American"
@@ -447,7 +447,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "mean",
+        question: "mean (гадкий)",
         answers: {
             a: "British",
             b: "American"
@@ -455,7 +455,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "pavement",
+        question: "pavement (тротуар)",
         answers: {
             a: "British",
             b: "American"
@@ -463,7 +463,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "allowance",
+        question: "allowance (карманные деньги)",
         answers: {
             a: "British",
             b: "American"
@@ -471,7 +471,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "post",
+        question: "post (почта)",
         answers: {
             a: "British",
             b: "American"
@@ -479,7 +479,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "mailman",
+        question: "mailman (почтальон)",
         answers: {
             a: "British",
             b: "American"
@@ -487,7 +487,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "pub",
+        question: "pub (бар)",
         answers: {
             a: "British",
             b: "American"
@@ -495,7 +495,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "restroom",
+        question: "restroom (общественный туалет)",
         answers: {
             a: "British",
             b: "American"
@@ -503,7 +503,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "queue",
+        question: "queue (очередь)",
         answers: {
             a: "British",
             b: "American"
@@ -511,7 +511,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "railroad",
+        question: "railroad (железная дорога)",
         answers: {
             a: "British",
             b: "American"
@@ -519,7 +519,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "rubber",
+        question: "rubber (ластик)",
         answers: {
             a: "British",
             b: "American"
@@ -527,7 +527,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "garbage",
+        question: "garbage (мусор)",
         answers: {
             a: "British",
             b: "American"
@@ -535,7 +535,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "shop",
+        question: "shop (магазин)",
         answers: {
             a: "British",
             b: "American"
@@ -543,7 +543,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "store clerk",
+        question: "store clerk (консультант)",
         answers: {
             a: "British",
             b: "American"
@@ -551,7 +551,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "timetable",
+        question: "timetable (расписание)",
         answers: {
             a: "British",
             b: "American"
@@ -559,7 +559,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "sneakers",
+        question: "sneakers (кроссовки)",
         answers: {
             a: "British",
             b: "American"
@@ -567,7 +567,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "torch",
+        question: "torch (фонарик)",
         answers: {
             a: "British",
             b: "American"
@@ -575,7 +575,7 @@ const myQuestions2 = [
         correctAnswer: "a"
     },
     {
-        question: "closet",
+        question: "closet (гардероб)",
         answers: {
             a: "British",
             b: "American"
@@ -583,7 +583,7 @@ const myQuestions2 = [
         correctAnswer: "b"
     },
     {
-        question: "zip",
+        question: "zip (молния)",
         answers: {
             a: "British",
             b: "American"
